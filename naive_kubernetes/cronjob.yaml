@@ -1,0 +1,14 @@
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: update-model-uri-cronjob
+spec:
+  schedule: "*/2 * * * *" # Run every 2 minutes
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          containers:
+          - name: update-model-uri
+            image: bibekyess/model-registry-tracker:v1
+          restartPolicy: OnFailure

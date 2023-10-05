@@ -6,7 +6,7 @@
 cd kubeflow_pipelines
 mkdir ssh-key
 ssh-keygen
-# Enter the file in which to save the key (e.g., /home/your-username/.ssh/id_rsa)
+# Enter the <absolute path to ssh-key directory>
 ```
 
 ### Build Docker Image

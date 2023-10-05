@@ -1,0 +1,6 @@
+*.dockerignore
+*__pycache__*
+*component_metadata*
+*kfp_config.ini
+*runtime-requirements.txt
+*/ssh-key

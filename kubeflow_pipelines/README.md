@@ -25,7 +25,7 @@ kfp component build ./src --component-filepattern tracker_pipeline.py --push-ima
 ### Run Pipeline
 Run the pipeline using the following command:
 ```bash
-python src/tracker_pipeline.py
+python src/tracker_pipeline.py --username user@example.com --password 12341234
 ```
 
 
